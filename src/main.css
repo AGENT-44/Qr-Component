@@ -68,9 +68,6 @@ body {
   .img {
     width: 92%;
   }
-  body {
-    background-color: red;
-  }
 }
 
 @media only screen and (max-width: 359px) {
@@ -79,9 +76,6 @@ body {
   }
   .img {
     width: 92%;
-  }
-  body {
-    background-color: orange;
   }
 }
 
@@ -92,18 +86,12 @@ body {
   .img {
     width: 92%;
   }
-  body {
-    background-color: orange;
-  }
 }
 
 @media only screen and (min-width: 768px) {
   .main {
     height: 440px;
     width: 35%;
-  }
-  body {
-    background-color: blue;
   }
 }
 
@@ -112,9 +100,7 @@ body {
     width: 262px;
     height: 424px;
   }
-  body {
-    background-color: rgb(30, 187, 64);
-  }
+
   .img {
     height: 60%;
     width: 242px;
@@ -131,9 +117,7 @@ body {
     width: 262px;
     height: 424px;
   }
-  body {
-    background-color: pink;
-  }
+
   .img {
     height: 60%;
     width: 242px;

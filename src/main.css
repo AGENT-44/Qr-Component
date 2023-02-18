@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Outfit";
+  background-color: #d5e1ef;
+}
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.main {
+  border-radius: 15px;
+  height: 400px;
+  width: 20%;
+  /* border: 1px solid black; */
+  background-color: var(--white);
+  /* box-shadow: 1px 1px 1px black; */
+  -webkit-box-shadow: 1px 4px 12px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 4px 12px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 4px 12px -4px rgba(0, 0, 0, 0.75);
+}
+.img {
+  height: 60%;
+  width: 235px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.heading {
+  color: var(--dark-blue);
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.about {
+  color: var(--grayish-blue);
+  font-weight: 400;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 15px;
+  padding-right: 20px;
+  padding-left: 30px;
+}
+
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and (min-width: 360px) {
+  .main {
+    width: 65%;
+  }
+  .img {
+    width: 92%;
+  }
+  body {
+    background-color: red;
+  }
+}
+
+@media only screen and (max-width: 359px) {
+  .main {
+    width: 70%;
+  }
+  .img {
+    width: 92%;
+  }
+  body {
+    background-color: orange;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .main {
+    width: 55%;
+  }
+  .img {
+    width: 92%;
+  }
+  body {
+    background-color: orange;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .main {
+    height: 440px;
+    width: 35%;
+  }
+  body {
+    background-color: blue;
+  }
+}
+
+@media only screen and (min-width: 936px) {
+  .main {
+    width: 262px;
+    height: 424px;
+  }
+  body {
+    background-color: rgb(30, 187, 64);
+  }
+  .img {
+    height: 60%;
+    width: 242px;
+    margin: 12px;
+  }
+  .about {
+    padding-right: 38px;
+    padding-left: 38px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .main {
+    width: 262px;
+    height: 424px;
+  }
+  body {
+    background-color: pink;
+  }
+  .img {
+    height: 60%;
+    width: 242px;
+    margin: 12px;
+  }
+  .about {
+    padding-right: 38px;
+    padding-left: 38px;
+  }
+}
